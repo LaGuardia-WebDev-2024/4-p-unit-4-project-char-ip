@@ -1,0 +1,66 @@
+.image-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.button {
+  position: absolute; /* set button to an absolute position */
+  top: 50%; /* adjust the top position of the button */
+  left: 50%; /* adjust the left position of the button */
+  transform: translate(-50%, -50%); /* center the button */
+  z-index: 2; /* set a higher z-index than the image */
+  background-color: #007bff; /* set your desired background color */
+  color: #fff; /* set your desired text color */
+  border: none; /* remove button border */
+  padding: 10px 20px; /* set your desired padding */
+  cursor: pointer; /* change mouse cursor on hover */
+}
+
+.matthew{
+    
+}
+.nathan {
+
+}
+
+.peter {
+
+}
+
+.luke {
+
+}
+
+.james{
+
+}
+
+.andrew {
+
+}
+
+.thomas{
+
+}
+
+.simon {
+
+}
+
+.judas {
+
+}
+
+.philip {
+
+}
+
+.john {
+
+}
+
+.mark {
+
+}
+
