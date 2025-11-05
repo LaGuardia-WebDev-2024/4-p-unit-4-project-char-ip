@@ -1,19 +1,20 @@
 .image-container {
   position: relative;
+  z-index: 1;
   width: 300px;
   height: 300px;    
 }
 
 .button {
   position: absolute; 
-  top: 50%;
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  top: 115%;
+  left: 130%; 
+  transform: translate(100%, 100%); 
   z-index: 2;
   border: none;
   padding: 10px 20px; 
-  background: url(/p/Goomba.png)no-repeat;
-  cursor:pointer;
+  background: url(/p/eden.PNG);
+  cursor:help;
   border: none;
 }
 

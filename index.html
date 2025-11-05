@@ -21,15 +21,25 @@ Select ONE Additional Feature to Add
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <style>
-
+    #demo {
+      z-index: -1;
+    }
   </style>
 </head>
 <body>
 
 <div class="image-container">
   <img src="p/eden.PNG">
-  <button class="button">Click me</button>
+  <button class="button" onclick="myFunction()">Click me</button>
 </div>
+
+<p id="demo">hello world</p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
 
 </body>
 </html>
