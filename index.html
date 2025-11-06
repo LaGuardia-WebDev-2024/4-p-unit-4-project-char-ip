@@ -20,26 +20,23 @@ Select ONE Additional Feature to Add
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-  <style>
-    #demo {
-      z-index: -1;
-    }
-  </style>
 </head>
+
+
+
 <body>
 
-<div class="image-container">
-  <img src="p/eden.PNG">
-  <button class="button" onclick="myFunction()">Click me</button>
+<div class="wrap">
+  <img src="p/eden.PNG" style="position: absolute; z-index: -1;">
+  <div class="resizer"></div>
+
+  <div class="x">
+    🔍
+    <span>drag the spot!</span>
+  </div>
 </div>
 
-<p id="demo">hello world</p>
 
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
 
 </body>
 </html>

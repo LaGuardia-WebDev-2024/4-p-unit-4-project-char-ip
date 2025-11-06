@@ -1,67 +1,45 @@
-.image-container {
+.resizer {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  opacity: 0;
+  resize: both;
+}
+
+.wrap {
+  width: min-content;
   position: relative;
-  z-index: 1;
-  width: 300px;
-  height: 300px;    
 }
 
-.button {
-  position: absolute; 
-  top: 115%;
-  left: 130%; 
-  transform: translate(100%, 100%); 
-  z-index: 2;
-  border: none;
-  padding: 10px 20px; 
-  background: url(/p/eden.PNG);
-  cursor:help;
-  border: none;
+.x {
+  pointer-events: none;
+  position: absolute;
+  bottom: -10px;
+  left: calc(100% - 20px);
+  line-height: 0;
+  color: red;
+  font-size: 50px;
 }
 
-.matthew{
-    
-}
-.nathan {
-
-}
-
-.peter {
-
+@keyframes squigglevision {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(-2deg); }
+  75% { transform: rotate(1deg); }
+  100% { transform: rotate(-1deg); }
 }
 
-.luke {
-
+.squiggled-text {
+  display: inline-block; 
+  animation: squigglevision 0.2s infinite alternate;
 }
 
-.james{
-
+.x span {
+  white-space: nowrap;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font: 600 15px/1 system-ui, sans-serif;
+  display: inline-block;
+  transform: translate(45px, -10px);
 }
-
-.andrew {
-
-}
-
-.thomas{
-
-}
-
-.simon {
-
-}
-
-.judas {
-
-}
-
-.philip {
-
-}
-
-.john {
-
-}
-
-.mark {
-
-}
-

@@ -15,3 +15,117 @@ https://www.shecodes.io/athena/9033-how-to-add-a-button-on-an-image-with-html-cs
   cursor: pointer; /* change mouse cursor on hover */
 
   
+
+
+
+
+
+
+  
+
+
+
+
+  <style>
+    #demo {
+      position: absolute;
+      z-index: 3;
+
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="p/eden.PNG">
+  <button class="button" onclick="myFunction()">Click me</button>
+</div>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-container {
+  position: relative;
+  z-index: 1;
+  height: 100%;    
+}
+
+.button {
+  position: absolute; 
+  top: 115%;
+  left: 130%; 
+  transform: translate(100%, 100%); 
+  z-index: 2;
+  border: none;
+  padding: 10px 20px; 
+  background: url(/p/eden.PNG);
+  cursor:help;
+  border: none;
+}
+
+.matthew{
+    
+}
+.nathan {
+
+}
+
+.peter {
+
+}
+
+.luke {
+
+}
+
+.james{
+
+}
+
+.andrew {
+
+}
+
+.thomas{
+
+}
+
+.simon {
+
+}
+
+.judas {
+
+}
+
+.philip {
+
+}
+
+.john {
+
+}
+
+.mark {
+
+}
+
