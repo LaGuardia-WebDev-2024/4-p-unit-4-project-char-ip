@@ -14,32 +14,18 @@
 .x {
   pointer-events: none;
   position: absolute;
-  bottom: -10px;
-  left: calc(100% - 20px);
+  bottom: -17px;
+  left: calc(100% - 67px);
   line-height: 0;
   color: red;
   font-size: 50px;
 }
 
-@keyframes squigglevision {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(2deg); }
-  50% { transform: rotate(-2deg); }
-  75% { transform: rotate(1deg); }
-  100% { transform: rotate(-1deg); }
-}
-
-.squiggled-text {
-  display: inline-block; 
-  animation: squigglevision 0.2s infinite alternate;
-}
-
-.x span {
+span {
   white-space: nowrap;
-  vertical-align: middle;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  font: 600 15px/1 system-ui, sans-serif;
-  display: inline-block;
-  transform: translate(45px, -10px);
+        vertical-align: middle;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        transform: translate(65px, -60px);
+        font-size: 15px;
 }
