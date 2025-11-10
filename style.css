@@ -1,3 +1,71 @@
+.hide {
+  display: none;
+}
+    
+.myDIVmatthew:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVnathan:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVpeter:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVluke:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVjames:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVandrew:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVthomas:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVsimon:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVjudas:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVphilip:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVjohn:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.myDIVmark:hover + .hide {
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
 .resizer {
   width: 100px;
   height: 100px;
